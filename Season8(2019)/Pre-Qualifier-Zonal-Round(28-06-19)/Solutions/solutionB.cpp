@@ -1,8 +1,6 @@
 //
 //solutionB.cpp
 //
-//
-//
 #include<iostream>
 #include<vector>
 #include<limits>
@@ -33,11 +31,10 @@ int main()
      {
         size_t found = s[i].find(tempP[j]); 
         if (found != string::npos) 
-        cout << tempP[j];
+         cout << tempP[j];
      }
      if( i != noOfTestCases - 1)
      cout << endl;
     }
-
     return 0;
 }

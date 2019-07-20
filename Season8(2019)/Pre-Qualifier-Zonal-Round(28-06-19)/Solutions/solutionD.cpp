@@ -1,6 +1,8 @@
+//
+//solutionD.cpp
+//
 #include<bits/stdc++.h>
 using namespace std;
-
 
 void printPatterLineNo(vector<vector<char>> stars, vector<vector<long int>> multipleOf10, vector<vector<long int>> multipleOf10SpecialCase, long int lineNo)
 {
@@ -22,6 +24,7 @@ void printPatterLineNo(vector<vector<char>> stars, vector<vector<long int>> mult
     }
     cout << endl;
 }
+
 int main()
 {
     int n;
@@ -71,14 +74,13 @@ int main()
                 tempMultipleOf10SpecialCase.push_back(tensSpecial);
             }
             else
-            {
                 tempMultipleOf10SpecialCase.push_back(tens);
-            }
            
         }
         multipleOf10SpecialCase.push_back(tempMultipleOf10SpecialCase);
         tempMultipleOf10SpecialCase.clear();
     }
+
     for( i = multipleOf10SpecialCase.size() - 1; i >= 0 ; i--)
 		multipleOf10SpecialCaseReverse.push_back(multipleOf10SpecialCase[i]);
 
