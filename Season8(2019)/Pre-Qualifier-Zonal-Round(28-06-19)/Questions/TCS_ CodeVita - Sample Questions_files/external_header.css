@@ -1,0 +1,94 @@
+@import url('../fonts.css');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header.header{
+	padding: 15px;
+	background: #000;
+	color: #fff;
+	font-family: 'Roboto';
+	display: grid;
+	grid-template-columns: auto auto;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.header .right_pane{
+	text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (min-width: 0px) and (max-width: 600px){
+    .header .left_pane{
+        grid-column: span 2;
+        text-align: center;
+    }
+    .header .right_pane{
+        grid-column: span 2;
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+    .header #cv_logo{
+        width: 170px;
+    }
+    .header #tcs_logo{
+        width: 150px!important;
+    }
+
+    .sub-header{
+        position: relative;
+        background: #000;
+        overflow-x: hidden;
+    }
+    .sub-header > img{
+        height: 70%;
+        position: relative;
+        margin-left: -7%;
+        opacity: 0.5;
+        top: 0;
+        width: unset!important;
+    }
+
+    .sub-header .content h2{
+        font-size: calc(2.6em - 25px);
+        font-weight: 400;
+    }
+    .sub-header .content .sub-message{
+        font-size: calc(2.0em - 20px);
+        font-weight: 400;
+        color: #ccc;
+    }
+
+    .sub-header .sub-sub-header{
+        text-align: center;
+    }
+
+    .other-information{
+        top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .other-information .punch-line {
+        font-size: 1.05em;
+    }
+
+    .other-information img{
+        width: 50px;
+    }
+    .other-information .item{
+        text-align: center;
+    }
+    .other-information .desc{
+        display: block;
+        margin-top: 15px;
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,1303 @@
+
+<!-- saved from url=(0057)https://www.tcscodevita.com/CodevitaV8/samplequestion.jsp -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script async="" src="./TCS_ CodeVita - Sample Questions_files/analytics.js.download"></script><script async="" src="./TCS_ CodeVita - Sample Questions_files/analytics.js.download"></script><script src="./TCS_ CodeVita - Sample Questions_files/jquery1.9.js.download"></script>
+<!-- <script src="./JS/jquery-ui.min.js"></script> -->
+
+
+ 
+<script src="./TCS_ CodeVita - Sample Questions_files/google_analytics.js.download"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-52806117-1', 'auto');
+	  ga('send', 'pageview');
+</script>
+
+
+
+<title>TCS: CodeVita - Sample Questions</title>
+
+<link rel="stylesheet" href="./TCS_ CodeVita - Sample Questions_files/faq.css" type="text/css">	
+<link rel="stylesheet" href="./TCS_ CodeVita - Sample Questions_files/blog.css" type="text/css">
+<link rel="stylesheet" href="./TCS_ CodeVita - Sample Questions_files/samplequestion.css" type="text/css">
+<script type="text/javascript" src="./TCS_ CodeVita - Sample Questions_files/main_script.js.download"></script>
+<script>
+$(document).ready(function(){
+	initializeTabs();
+	enhanceContent();
+});
+
+function SelectProblem(questionID){
+	var tabs = $('.tab');
+	for(var i = 0; i < tabs.length; i++){
+		$(tabs[i]).css('display','none');	
+		$(tabs[i]).removeClass('active');		
+	}
+	$('#' + $(questionID).attr('id') +'.tab').css('display','block');
+	$('#' + $(questionID).attr('id') +'.tab').addClass('active');
+	enhanceContent();
+}
+
+</script></head>
+
+
+
+<body>
+ 
+
+<link rel="stylesheet" href="./TCS_ CodeVita - Sample Questions_files/external_header.css">
+<header class="header">
+				<div class="left_pane">
+					<img src="./TCS_ CodeVita - Sample Questions_files/cv_logo.png" id="cv_logo" style="width: 160px">
+				</div>
+				<div class="right_pane">
+					<img src="./TCS_ CodeVita - Sample Questions_files/tcs_logo.png" id="tcs_logo" style="width: 250px">
+				</div>
+</header>
+<div class="container">
+		<div class="main-container">
+			<h1 id="the-heading">CodeVita Sample Questions</h1>
+			<div class="main-content">
+				<div class="full-module">
+					<div class="content">
+						<div class="question_selectors tab-selectors" style="grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;">
+							<div class="question_selector tab-selector" id="A" onclick="SelectProblem(this)">A</div>
+							<div class="question_selector tab-selector active" id="B" onclick="SelectProblem(this)">B</div>
+							<div class="question_selector tab-selector" id="C" onclick="SelectProblem(this)">C</div>
+							<div class="question_selector tab-selector" id="D" onclick="SelectProblem(this)">D</div>
+							<div class="question_selector tab-selector" id="E" onclick="SelectProblem(this)">E</div>
+							<div class="question_selector tab-selector" id="F" onclick="SelectProblem(this)">F</div>
+							<div class="question_selector tab-selector" id="G" onclick="SelectProblem(this)">G</div>
+						</div><div class="tab-selector-pointer"><div class="pointer" style="width: 14.2857%; left: 14.2857%;"></div></div>
+						<div class="tabs">
+						<div class="question_container tab" id="A" style="opacity: 0; display: none;">
+						<h1>On A Cube</h1>
+						
+						<p>A solid cube of 10 cm x 10cm x 10 cm rests on the
+						ground.<span>&nbsp; </span>It has a beetle on it, and some
+						sweet honey spots at various locations on the surface of the cube.&nbsp; The
+						beetle starts at a point on the surface of the cube, and goes to the honey spots
+						in order along the surface of the cube. <span><o:p></o:p></span></p>
+						
+						
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						<div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Problem Description<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>A
+						solid cube of 10 cm x 10cm x 10 cm rests on the ground.<span>&nbsp; </span>It has a beetle on it, and some sweet honey
+						spots at various locations on the surface of the cube.&nbsp; The beetle starts
+						at a point on the surface of the cube, and goes to the honey spots in order
+						along the surface of the cube.<o:p></o:p></span></p><p><span><span>1.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</span></span></span><span>If it goes from a point to another point on the same face (say X
+						to Y), it goes in an arc of a circle that subtends an angle of 60 degrees at
+						the centre of the circle<o:p></o:p></span></p><p><span><span>2.<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</span></span></span><span>If it goes from one point to another on a different face, it goes
+						by the shortest path on the surface of the cube, except that it never travels
+						along the bottom of the cube<o:p></o:p></span></p><p><span>The
+						beetle is a student of Cartesian geometry, and knows the coordinates (x, y, z)
+						of all the points it needs to go to.<span>&nbsp; </span>The
+						origin of coordinates it uses is one corner of the cube on the ground, and the
+						z axis points up.<span>&nbsp; </span>Hence, the bottom
+						surface (on which it does not crawl) is z=0, and the top surface is z=10.<span>&nbsp; </span>The beetle keeps track of all the distances
+						travelled, and rounds the distance travelled to two decimal places once it
+						reaches the next spot, so that the final distance is a sum of the rounded
+						distances from spot to spot.<br>
+						<br>
+						</span><b><span><o:p></o:p></span></b></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Input<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>The
+						first line gives an integer N, the total number of points (including the
+						starting point) the beetle visits<o:p></o:p></span></p><p><span>The
+						second line is a set of 3N comma separated non-negative numbers, with up to two
+						decimal places each.<span>&nbsp; </span>These are to be
+						interpreted in groups of three as the x, y, z coordinates of the points the
+						beetle needs to visit in the given order.<o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Output<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>One
+						line with a number giving the total distance travelled by the beetle accurate
+						to two decimal places.<span>&nbsp; </span>Even if the
+						distance travelled is an integer, the output should have two decimal places.<o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Constraints<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>None
+						of the points the beetle visits is on the bottom face (z=0) or on any of the
+						edges of the cube (the lines where two faces meet)<o:p></o:p></span></p><p><span>2&lt;=N&lt;=10</span><span><o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Complexity<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>Complex<o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Time Limit<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>1</span><span><o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Examples<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><b><span>Example 1<o:p></o:p></span></b></p><p><span>Input<o:p></o:p></span></p><p><span>3<o:p></o:p></span></p><p><span>1,1,10,2,1,10,0,1,9<o:p></o:p></span></p><p><span>Output<o:p></o:p></span></p><p><span>4.05<o:p></o:p></span></p><p><span>Explanation<o:p></o:p></span></p><p><span>There
+						are three points visited by the beetle (N=3). The beetle starts on the top face
+						of the cube (z=10) at point (1,1,10) and goes to another point on the same face
+						(2,1,10).<span>&nbsp; </span>Though the straight line
+						distance is 1, it travels on the arc of a circle subtending an angle of 60
+						degrees at the centre of the circle, and hence travels (2*pi)/6 or 1.05 (note
+						that it rounds the distance at each leg of the journey).<span>&nbsp; </span>It then travels from (2,1,10) on the face
+						z=10 to (0,1,9) on the face x=0 along the surface of the cube. This is a
+						distance of 3.<span>&nbsp; </span>The total distance
+						travelled is 1.05+3=4.05.<span>&nbsp; </span>The output is
+						4.05<o:p></o:p></span></p><p><b><span>Example 2<o:p></o:p></span></b></p><p><span>Input<o:p></o:p></span></p><p><span>3<o:p></o:p></span></p><p><span>1,1,10,2,1,10,0,5,9<o:p></o:p></span></p><p><span>Output<o:p></o:p></span></p><p><span>6.05<o:p></o:p></span></p><p><span>Explanation<o:p></o:p></span></p><p><span>There
+						are three points visited by the beetle (N=3). The beetle starts on the top face
+						of the cube (z=10) at point (1,1,10) and goes to another point on the same face
+						(2,1,10).<span>&nbsp; </span>As before. This distance is
+						1.05.<span>&nbsp;&nbsp; </span>It then travels from (2,1,10) on
+						the face z=10 to (0,5,9) on the face x=0 along the surface of the cube. The
+						shortest distance on the surface of the cube between these points is 5.<span>&nbsp; </span>The total distance travelled is
+						1.05+5=6.05.<span>&nbsp; </span>The output is 6.05.</span><span><o:p></o:p></span></p></div></div>
+						<div class="question_container tab active" id="B" style="opacity: 1; display: block;">
+						<h1>Sorting Boxes<o:p></o:p></h1>
+						
+						<p><span>The parcel section of the Head Post Office is in
+						a mess.<span>&nbsp; </span>The parcels that need to be
+						loaded to the vans have been lined up in a row in an arbitrary order of
+						weights.<span>&nbsp; </span>The Head Post Master wants them
+						to be sorted in the increasing order of the weights of the parcels, with one
+						exception.<span>&nbsp; </span>He wants the heaviest (and
+						presumably the most valuable) parcel kept nearest his office.</span><span><o:p></o:p></span></p>
+						
+						
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						<div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Problem Description<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>The
+						parcel section of the Head Post Office is in a mess.<span>&nbsp; </span>The parcels that need to be loaded to the
+						vans have been lined up in a row in an arbitrary order of weights.<span>&nbsp; </span>The Head Post Master wants them to be sorted
+						in the increasing order of the weights of the parcels, with one exception.<span>&nbsp; </span>He wants the heaviest (and presumably the
+						most valuable) parcel kept nearest his office.<o:p></o:p></span></p><p><span><span>&nbsp;</span>You and your friend try to sort these boxes
+						and you decide to sort them by interchanging two boxes at a time.<span>&nbsp; </span>Such an interchange needs effort equals to
+						the product of the weights of the two boxes.<span>&nbsp;
+						</span><o:p></o:p></span></p><p><span>The
+						objective is to reposition the boxes as required with minimum effort.</span><b><span style="font-size:13.0pt;line-height:
+						107%"><o:p></o:p></span></b></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Input<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>The
+						first line consists of two space separated positive integers giving the number
+						of boxes (N) and the position of the Head Post Master’s office (k) where the
+						heaviest box must be.<o:p></o:p></span></p><p><span>The
+						second line consists of N space separated positive integers giving the weights
+						of the boxes.<span>&nbsp; </span>You may assume that no two
+						weights are equal.<o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Output<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>The
+						output is one line giving the total effort taken to get the boxes in sorted
+						order, and the heaviest in position k.<o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Constraints<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>N&lt;=50<o:p></o:p></span></p><p><span>Weights
+						&lt;= 1000</span><span><o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Complexity<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>Complex<o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Time Limit<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><span>1</span><span><o:p></o:p></span></p></div><div class="heading-tab active"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="#333" stroke-width="3" d="M12 12h8"></path><path stroke="#333" stroke-width="3" d="M12 12h-8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v8"></path><path class="plus" stroke="#333" stroke-width="3" d="M12 12v-8"></path></svg><h3>Examples<o:p></o:p></h3></div><div class="content-tab" style="opacity: 1;"><p><b><span>Example 1<o:p></o:p></span></b></p><p><span>Input<o:p></o:p></span></p><p><span>5
+						2<o:p></o:p></span></p><p><span>20
+						50 30 80 70<o:p></o:p></span></p><p><span>Output<o:p></o:p></span></p><p><span>3600<o:p></o:p></span></p><p><span>Explanation<o:p></o:p></span></p><p><span>There
+						are 5 boxes (N=5) and the heaviest box must be in position 2 (k=2).<span>&nbsp; </span>If we look at the final order (sorted, with
+						the heaviest at position 2), it should be 20 80 30 50 70.<span>&nbsp; </span>If we look at this, we notice that only the
+						50 and the 80 parcels need to be exchanged.<span>&nbsp;
+						</span>As this takes effort of the product of the weights, the effort is
+						4000.<span>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p><p><span>Further
+						reduction can be obtained if we use the smallest package (20) as an
+						intermediary.<span>&nbsp; </span>If we exchange 20 with 50
+						(effort 1000), then with 80 (effort 1600) and back with 50 again (effort 1000),
+						the effect is the same, with a total effort of 3600 (less th an the effort
+						obtained by the direct move)an the effort <o:p></o:p></span></p><p><span>The
+						results after the optimal sequence of exchanges are<o:p></o:p></span></p><p><span>50
+						20 30 80 70<o:p></o:p></span></p><p><span>50
+						80 30 20 70<o:p></o:p></span></p><p><span>20
+						80 30 80 70<o:p></o:p></span></p><p><span><o:p>&nbsp;</o:p></span></p><p><span>As
+						this takes an effort of 3600, the output is 3600. <o:p></o:p></span></p><p><b><span>Example 2<o:p></o:p></span></b></p><p><span>Input<o:p></o:p></span></p><p><span>6
+						3<o:p></o:p></span></p><p><span>30
+						20 40 80 70 60<o:p></o:p></span></p><p><span>Output<o:p></o:p></span></p><p><span>7600<o:p></o:p></span></p><p><span>Explanation<o:p></o:p></span></p><p><span>There
+						are 6 parcels, and the heaviest should be at position 3.<span>&nbsp; </span>Hence the final order needs to be 20 30 80 40
+						60 70.<span>&nbsp; </span>If we look at the initial
+						position, we see that 20 and 30 need to be exchanged (effort 600), 40 and 80
+						need to be exchanged (effort 3200) and 60 and 70 need to be exchanged (effort
+						4200).<span>&nbsp; </span>Hence the total effort is
+						600+3200+4200=8000.<span>&nbsp; </span><o:p></o:p></span></p><p><span>If
+						we use the same approach as in Example 1, we get the following efforts<o:p></o:p></span></p><p><span><o:p>&nbsp;</o:p></span></p><p><span>(600)<span style="mso-tab-count:1">&nbsp;&nbsp; </span>20 30 40 80 70 60<o:p></o:p></span></p><p><span>(3200)<span style="mso-tab-count:1"> </span>20 30 80 40 70 60<span>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p><p><span>(1200)<span style="mso-tab-count:1"> </span>60 30 80 40 70 20<o:p></o:p></span></p><p><span>(1400)<span style="mso-tab-count:1"> </span>60 30 80 40 20 70<o:p></o:p></span></p><p><span>(1200)<span style="mso-tab-count:1"> </span>20 30 80 40 60 70<o:p></o:p></span></p><p><span>A
+						total effort of 7600 is obtained rather than an effort of 8000, which is the
+						output.</span><span><o:p></o:p></span></p></div></div>
+						<div class="question_container tab" id="C" style="opacity: 0; display: none;">
+						<h1>Sport Stadium<o:p></o:p></h1>
+						
+						<p>It is the sports event of the year for the residents of
+						Sportsville.<span>&nbsp; </span>Their team had finally made
+						it to the finals of the Bowls League Cup.<o:p></o:p></p>
+						
+						
+						<h3>Problem Description<o:p></o:p></h3>
+
+						<p>It is the sports event of the year for the residents of
+						Sportsville.<span>&nbsp; </span>Their team had finally made
+						it to the finals of the Bowls League Cup.<o:p></o:p></p>
+
+						<p>They have booked tickets for the city contingent for the
+						same row, and the size of the contingent (N) is smaller than the number of
+						seats booked(S).Unfortunately, there was rain the previous night and some of
+						the seats are still wet. Some of the contingent love Bowls so much and are
+						excited enough not to mind sitting on a wet chair. There are k of these.
+						However, others want to sit on a dry seat so that they can enjoy the match
+						more. <o:p></o:p></p>
+
+						<p>The contingent wants to minimize the distance between the
+						first and last person in the row so that they can still conduct Mexican Waves,
+						and other forms of support for their team. <o:p></o:p></p>
+
+						<p>Because they want to sit together, any block of 15 or more
+						contiguous unoccupied seats between the first person sitting and the last
+						person sitting is unacceptable.<o:p></o:p></p>
+
+						<p>There are M blocks of seats, starting with a dry block, with
+						alternating wet and dry blocks.<span>&nbsp; </span>The
+						number of seats in each block is known.<o:p></o:p></p>
+
+						<p>Given S (the number of seats in the row), N (the size of the
+						contingent),k (the number of the contingent who are willing to sit in a wet
+						seat), and the distribution of wet and dry blocks, write a program to find the
+						minimum distance between the first and the last member of the contingent in the
+						row.<br>
+						<br>
+						<b><span><o:p></o:p></span></b></p>
+
+						<h3>Input</h3>
+
+						<p><span>The first line contains four comma separated numbers representing S, N,
+						k and M respectively.<b><o:p></o:p></b></span></p>
+
+						<p><span>The second line is a set of M comma separated numbers representing the
+						number of seats in each block of seats.<span>&nbsp;
+						</span>The first block is dry, and the remaining blocks alternate between wet
+						and dry.<o:p></o:p></span></p>
+
+						<h3>Output</h3>
+
+						<p><span>One integer representing the minimum distance between the first and last
+						member of the row.<span>&nbsp; </span>If it is impossible
+						to seat all the members according to their preferences,and with the unoccupied
+						seat restriction, <span>&nbsp;</span>the result should be
+						0. <o:p></o:p></span></p>
+
+						<h3>Constraints</h3>
+
+						<p><span>S,N,k &lt; 1000,<span>&nbsp; </span>M &lt; 30 <o:p></o:p></span></p>
+
+						
+
+						<h3>Complexity</h3>
+
+						<p><span>Complex<o:p></o:p></span></p>
+
+						<h3>Time Limit</h3>
+
+						<p><span>1<o:p></o:p></span></p>
+
+						<h3>Examples</h3>
+
+						<p><span><o:p>&nbsp;</o:p></span></p>
+
+						<p><b><span>Example 1</span></b>
+
+						</p><p><span>Input<span>&nbsp; </span></span><o:p></o:p></p>
+
+						<p>100,50,5,6<o:p></o:p></p>
+
+						<p>3,10,30,5,30,22<o:p></o:p></p>
+
+						<p>Output<span><o:p></o:p></span></p>
+
+						<p><span>49<o:p></o:p></span></p>
+
+						<p><span>Explanation</span><o:p></o:p></p>
+
+						<p>S = 100, and there are 100 seats in the row.<span>&nbsp; </span>N=50, and there are 50 members in the
+						contingent. k=5, and 5 people (out of the 50) do not mind sitting on wet
+						seats.<span>&nbsp; </span>M=6, and there are 6 blocks of
+						seats.<span>&nbsp; </span>The number of seats in each block
+						is 3,10,30,5,30 and 22, with the first block of 3 seats being dry, the next 10
+						being wet and so on.<span>&nbsp; </span><span><o:p></o:p></span></p>
+
+						<p><span>One possible positioning to achieve the minimum distance is to place the
+						a set of 30 people in seats 14 to 43 (the dry block), the 5 people who do not
+						mind sitting on wet seats in the wet block 44 to 48, and the remaining 15
+						people (of the 50) in the seats 49 to 63.<span>&nbsp;
+						</span>There is no unoccupied seat between the first person and the last
+						person, and so this is acceptable.The distance between the last allocated seat
+						(63) and the first allocated seat (14), is 49.<span>&nbsp;
+						</span>This is the output. <o:p></o:p></span></p>
+
+						<p><span><o:p>&nbsp;</o:p></span></p>
+
+						<p><b><span>Example 2</span></b><span><o:p></o:p></span></p>
+
+						<p><span>Input<span>&nbsp; </span></span><o:p></o:p></p>
+
+						<p>100,50,5,8<o:p></o:p></p>
+
+						<p>3,7,10,10,20,10,20,20<o:p></o:p></p>
+
+						<p>Output<span><o:p></o:p></span></p>
+
+						<p><span>64<o:p></o:p></span></p>
+
+						<p><span>Explanation</span><o:p></o:p></p>
+
+						<p>S = 100, and there are 100 seats in the row.<span>&nbsp; </span>N=50, and there are 50 members in the
+						contingent. k=5, and 5 people (out of the 50) do not mind sitting on wet
+						seats.<span>&nbsp; </span>M=8, and there are 8 blocks of
+						seats.<span>&nbsp; </span><span><o:p></o:p></span></p>
+
+						<p><span>One possible positioning is to have a set of 10 people sit in the dry
+						block 11 – 20, the 5 people who will accept wet seats in seats 21 – 25 (in the
+						wet block 21 – 30), another 20 people in the dry block 31 – 50, leave the wet
+						block 51-60 empty, and seat the remaining 15 people in seats 61 – 75 (in the
+						dry block 61-80.<span>&nbsp; </span>There is a block of 5
+						unoccupied seats (26-30) between the first person and the last person.<span>&nbsp; </span>As this is not more than 15, this is
+						acceptable. The distance from the last allocated seat (75) and the first
+						allocated seat (11) is 64.<span>&nbsp; </span>This is the
+						result.<o:p></o:p></span></p>
+
+						<p><span><o:p>&nbsp;</o:p></span></p>
+
+						<p><span><o:p>&nbsp;</o:p></span></p>
+
+						<p><span><o:p>&nbsp;</o:p></span></p>
+						
+						</div>
+						<div class="question_container tab" id="D" style="opacity: 0; display: none;">
+						<h1>
+						 Water Cistern
+						</h1>
+						
+												
+						
+						<p>
+							A cylindrical water cistern was built in an apartment complex in Aquatown.
+							The bottom rests on concrete and is not accessible. It has a height h and a
+							radius r,
+						</p>
+						<h3>
+							Problem Description
+						</h3>
+						<p>
+							A cylindrical water cistern was built in an apartment complex in Aquatown.
+						   <img src="./TCS_ CodeVita - Sample Questions_files/WaterCistern.png" alt="cyllender">
+						</p>
+						<p>
+							The bottom rests on concrete and is not accessible. It has a height h and a
+							radius r,
+						</p>
+						<p>
+							A mathematical bug is sitting on the cistern at point A, and has
+							established a coordinate system to cover the entire accessible area. The
+							bug is sitting a distance s from the top of the cistern, and the nearest
+							point at the top is B.
+						</p>
+						<p>
+							For a point C on the curved surface, the nearest point D on the top is
+							determined, and the distance CD is taken as t. The angle p (in degrees)
+							subtended at the centre of the circle E by the arc BD is measured (in a
+							counterclockwise manner). The coordinates of C are taken as the pair (t,p),
+							with t being greater than 0 and less than h, and with p being between 0 and
+							359 (inclusive).
+						</p>
+						<p>
+							For a point on the top surface, F, the distance to the centre E is taken
+							(a), and the counterclockwise angle (in degrees) between EF and EB is
+							taken. The coordinates of the point F are then taken as (-a,q). The value
+							of a is between 0 and r, and the value of q is between 0 and 359.
+						</p>
+						<p>
+							All coordinates are integers, and if the point is on the top surface of the
+							cylinder, the first coordinate is negative, and if it is on the curved
+							surface of the cylinder, the first coordinate is positive.
+						</p>
+						<p>
+							From its staring point A, the bug needs to go to its destination, which is
+							a point (like C or F) either on the curved surface or the top surface. The
+							coordinates of the destination are given. The bug would like to go by the
+							shortest path to its destination.
+						</p>
+						<p>
+							The goal is to determine the length of the shortest path the bug can take.
+						</p>
+						<h3>
+							Input
+						</h3>
+						<p>
+							The first line has three comma separated positive integers giving r (the
+							radius), h (the height of the cylinder) and s (the distance from the top of
+							the starting point of the bug)
+						</p>
+						<p>
+							The next line has two comma separated integers (d and g) giving the
+							coordinates of the destination. If the first integer (d) is negative, it is
+							on top surface of the cylinder, and else it is on the curved surface of the
+							cylinder
+						</p>
+						<h3>
+							Output
+						</h3>
+						<p>
+							The output is a single integer giving the shortest distance that the bug
+							can travel. The computed distance must be rounded to the nearest integer
+						</p>
+						<h3>
+							Constraints
+						</h3>
+						<p>
+							40&lt;s&lt;=h&lt;10000
+						</p>
+						<p>
+							r&lt;100
+						</p>
+						<p>
+							0&lt;=g&lt;=359
+						</p>
+						<p>
+							If d is negative, d &gt; -r
+						</p>
+						<p>
+							If d is positive, d &lt; h
+						</p>
+						<h3>
+							Complexity
+						</h3>
+						<p>
+							Complex
+						</p>
+						<h3>
+							Time Limit
+						</h3>
+						<p>
+							1
+						</p>
+						<h3>
+							Examples
+						</h3>
+						<p>
+							<strong>Example 1</strong>
+						</p>
+						<p>
+							Input
+						</p>
+						<p>
+							100,500,200
+						</p>
+						<p>
+							200,180
+						</p>
+						<p>
+							Output
+						</p>
+						<p>
+							314
+						</p>
+						<p>
+							Explanation
+						</p>
+						<p>
+							The value of r is 100, and h is 500. The distance of the bug from the top
+							surface is 200.
+						</p>
+						<p>
+							The coordinates of the destination are (200,180). As the first coordinate
+							is 200, the destination is on the curved surface (like point C), and at the
+							same distance from the top surface as the bug. As the second coordinate is
+							180, the destination is exactly on the other side of the cylinder at the
+							same height as the bug, The distance is half the circumference of the
+							cylinder, or 314. This is the output.
+						</p>
+						<p>
+							<strong>Example</strong>
+							<strong>2</strong>
+						</p>
+						<p>
+							Input
+						</p>
+						<p>
+							100,500,200
+						</p>
+						<p>
+							-50,180
+						</p>
+						<p>
+							Output
+						</p>
+						<p>
+							350
+						</p>
+						<p>
+							Explanation
+						</p>
+						<p>
+							The value of r is 100, and h is 500. The distance of the bug from the top
+							surface is 200.
+						</p>
+						<p>
+							The coordinates of the destination are (-50,180). As the first coordinate
+							is negative (-50), the point is on the top surface of the cylinder (like
+							point F), and EF is 50. As the second coordinate is 180, BEF is a straight
+							line. The distance travelled is AB + BE + EF = 200 + 100 + 50=350. This is
+							the output.
+						</p>
+						
+						</div>
+						<div class="question_container tab" id="E" style="opacity: 0; display: none;">
+						<h1>Square Free Numbers<o:p></o:p></h1>
+						
+						
+						<p>In the theory of numbers, square free numbers have a special
+						place.<span>&nbsp; </span>A square free number is one that
+						is not divisible by a perfect square (other than 1).<o:p></o:p></p>
+						
+						
+						<h3>Problem Description<o:p></o:p></h3>
+
+						<p>In the theory of numbers, square free numbers have a special
+						place.<span>&nbsp; </span>A square free number is one that
+						is not divisible by a perfect square (other than 1).<span>&nbsp; </span>Thus 72 is divisible by 36 (a perfect
+						square), and is not a square free number, but 70 has factors 1, 2, 5, 7, 10,
+						14, 35 and 70.<span>&nbsp; </span>As none of these are
+						perfect squares (other than 1), 70 is a square free number.<o:p></o:p></p>
+
+						<p>For some algorithms, it is important to find out the square
+						free numbers that divide a number.<span>&nbsp; </span>Note
+						that 1 is not considered a square free number.<span>&nbsp;
+						</span><o:p></o:p></p>
+
+						<p>In this problem, you are asked to write a program to find
+						the number of square free numbers that divide a given number.<o:p></o:p></p>
+
+						<h3>Input<o:p></o:p></h3>
+
+						<p>The only line of the input is a single integer N which is
+						divisible by no prime number larger than 19<o:p></o:p></p>
+
+						<h3>Output<o:p></o:p></h3>
+
+						<p>One line containing an integer that gives the number of square
+						free numbers (not including 1) <o:p></o:p></p>
+
+						<h3>Constraints<o:p></o:p></h3>
+
+						<p>N<span>&nbsp;&nbsp; </span>&lt; 10^9<o:p></o:p></p>
+
+						<h3>Complexity<o:p></o:p></h3>
+
+						<p>Simple<o:p></o:p></p>
+
+						<h3>Time Limit<o:p></o:p></h3>
+
+						<p>1<o:p></o:p></p>
+
+						<h3>Examples<o:p></o:p></h3>
+
+						<p><b>Example 1<o:p></o:p></b></p>
+
+						<p>Input<o:p></o:p></p>
+
+						<p>20<o:p></o:p></p>
+
+						<p>Output<o:p></o:p></p>
+
+						<p>3<o:p></o:p></p>
+
+						<p>Explanation<o:p></o:p></p>
+
+						<p>N=20<o:p></o:p></p>
+
+						<p>If we list the numbers that divide 20, they are<o:p></o:p></p>
+
+						<p>1, 2, 4, 5, 10, 20<o:p></o:p></p>
+
+						<p>1 is not a square free number, 4 is a perfect square, and 20
+						is divisible by 4, a perfect square.<span>&nbsp; </span>2
+						and 5, being prime, are square free, and 10 is divisible by 1,2,5 and 10, none
+						of which are perfect squares.<span>&nbsp; </span>Hence the
+						square free numbers that divide 20 are 2, 5, 10.<span>&nbsp; </span>Hence the result is 3.<o:p></o:p></p>
+
+						<p><b>Example 2<o:p></o:p></b></p>
+
+						<p>Input<o:p></o:p></p>
+
+						<p>72<o:p></o:p></p>
+
+						<p>Output<o:p></o:p></p>
+
+						<p>3<o:p></o:p></p>
+
+						<p>Explanation<o:p></o:p></p>
+
+						<p>N=72.<span>&nbsp; </span>The numbers
+						that divide 72 are <o:p></o:p></p>
+
+						<p>1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72<o:p></o:p></p>
+
+						<p>1 is not considered square free.<span>&nbsp;&nbsp; </span>4, 9 and 36 are perfect squares, and
+						8,12,18,24 and 72 are divisible by one of the.<span>&nbsp;
+						</span>Hence only 2, 3 and 6 are square free.<span>&nbsp;
+						</span>(It is easily seen that none of them are divisible by a perfect
+						square).<span>&nbsp; </span>The result is 3<o:p></o:p></p>
+
+						<span><br>
+						</span>
+
+						<p><o:p>&nbsp;</o:p></p>
+
+						<p>Test Cases<o:p></o:p></p>
+
+						<table>
+						 <tbody><tr>
+						  <td>
+						  <p>20<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>3<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>72<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>3<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>29729700<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>63<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>62290800<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>31<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>691891200<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>63<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>523908000<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>31<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>340540200<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>63<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>290990700<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>255<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>449141836<o:p></o:p></p>
+						  </td>
+						 </tr>
+						 <tr>
+						  <td></td>
+						 </tr>
+						 <tr>
+						  <td>
+						  <p>31<o:p></o:p></p>
+						  </td>
+						 </tr>
+						</tbody></table>
+
+						<p><o:p>&nbsp;</o:p></p>
+						
+						</div>
+						<div class="question_container tab" id="F" style="opacity: 0; display: none;">
+						<h1>
+							Codu and Sum Love
+						</h1>
+						
+						<p>
+							Given N number of x's, perform logic equivalent of the above Java code and
+							print the output
+						</p>
+						
+						
+						<h3>
+							Problem Description
+							
+						</h3>
+						<p>
+							Scanner sc = new Scanner(System.in);
+						</p>
+						<p>
+							long sum = 0;
+						</p>
+						<p>
+							int N = sc.nextInt();
+						</p>
+						<p>
+							for (int i = 0; i &lt; N; i++) {
+						</p>
+						<p>
+							final long x = sc.nextLong(); // read input
+						</p>
+						<p>
+							String str = Long.toString((long) Math.pow(1 &lt;&lt; 1, x));
+						</p>
+						<p>
+							str = str.length() &gt; 2 ? str.substring(str.length() - 2) : str;
+						</p>
+						<p>
+							sum += Integer.parseInt(str);
+						</p>
+						<p>
+							}
+						</p>
+						<p>
+							System.out.println(sum%100);
+						</p>
+						<p>
+							
+						</p>
+						<p>
+							Given N number of x's, perform logic equivalent of the above Java code and
+							print the output
+							</p>
+						<h3>
+							Input
+						</h3>
+							<p>
+							First line contains an integer N
+						</p>
+						<p>
+							Second line will contain N numbers delimited by space
+						</p>
+						
+						<h3>
+							Output
+						</h3>
+							<p>
+							Number that is the output of the given code by taking inputs as specified
+							above
+						</p>
+						<p>
+						</p><h3>
+							Constraints
+						</h3>
+							<p>
+							1&lt;=N&lt;=10^7
+							</p><p>
+							0&lt;=x&lt;=10^18
+						</p>
+						<h3>
+							Complexity
+						</h3>
+						<p>
+							Simple
+						</p>
+							<h3>Time Limit</h3>
+							<p>
+							1 </p>
+							
+							<h3>Examples</h3>
+						<p></p>
+						<p>
+							Example 1
+						</p>
+						<p>
+							Input
+							<br>
+							4
+							<br>
+							8 6 7 4
+							<br>
+							Output
+							<br>
+							64
+						</p>
+						<p>
+							Example 2
+						</p>
+						<p>
+							Input
+						</p>
+						<p>
+							3
+						</p>
+						<p>
+							1 2 3
+						</p>
+						<p>
+							Output
+						</p>
+						<p>
+							14
+						</p>
+						
+						</div>
+						<div class="question_container tab" id="G" style="opacity: 0; display: none;">
+						<h1>
+						   Obstacle Game
+						</h1>
+												
+						<p>
+							Given a n*n Array matrix (A) with A[0][0] element as the starting point and
+							any one element as the destination.
+						</p>
+						
+						
+						<h3>
+							Problem Description
+						</h3>
+						<p>
+							Given a n*n Array matrix (A) with A[0][0] element as the starting point and
+							any one element as the destination. Find the destination and print the
+							route map.
+							<br>
+							Rules:
+							<br>
+							1. Array Matrix with n*n elements such that n &gt;=2 and n&lt;=10.
+							<br>
+							2. Starting point A[0][0] value will be 'A'.
+							<br>
+							3. Destination value will be 'D'
+							<br>
+							4. There will be always 1 continuous route which can be straight or
+							diagonal.
+							<br>
+							5. There are 4 types of hurdles and corresponding values :
+							<br>
+							a. Stone denoted by 'S'
+							<br>
+							b. Wall denoted by 'L'
+							<br>
+							c. Water denoted by 'W'
+							<br>
+							d. Thorn denoted by 'T'
+							<br>
+							6. Music provides mind peace. Which will be denoted by 'M'. It is not a
+							hurdle.
+							<br>
+							6. The value of route will be 'R'.
+							<br>
+							<br>
+						</p>
+						<h3>
+							Input
+						</h3>
+							<p>
+							First Line contains dimension N of Matrix A.
+							</p>
+						<p>
+							Next N Lines, each contains N values delimited by space
+						</p>
+						
+						<h3>
+							Output
+						</h3>
+						<p>
+							At every Step print the surrounded hurdles in ascending order of values.
+							i.e. for every 'R' print the surrounding hurdles.
+						</p>
+						<p>
+							If there are no hurdled around step in the route, print 'NO HURDLES' for
+							that step.
+						</p>
+						<p>	On reaching destination print 'DESTINATION'</p>
+						<p>Music 'M' is not a hurdle. It should not be included in output.</p>
+						<h3>
+							Constraints
+						</h3>
+						<p>
+							2 &lt;= N &lt;= 20
+						</p>
+						<h3>
+							Complexity
+						</h3>
+						<p>
+							Simple
+						</p>
+						<h3>
+							Time Limit
+						</h3>
+						<p>
+							1
+							<br>
+							Examples
+						</p>
+						<p>
+							<strong>
+								Example 1
+								<br>
+							</strong>
+							Input
+							<br>
+							4
+							<br>
+							A S L D
+							<br>
+							T R W R
+							<br>
+							R M S R
+							<br>
+							W R R M
+						</p>
+						<p>
+							<br>
+							Output:
+						</p>
+						<p>
+							L S S T W
+						</p>
+						<p>
+							T W
+						</p>
+						<p>
+							S W
+						</p>
+						<p>
+							S
+						</p>
+						<p>
+							S W
+						</p>
+						<p>
+							L S W
+						</p>
+						<p>
+							DESTINATION
+						</p>
+						<p>
+							<strong>Example 2</strong>
+						</p>
+						<p>
+							Input:
+						</p>
+						<p>
+							5
+						</p>
+						<p>
+							A S L W M
+						</p>
+						<p>
+							R S L D T
+						</p>
+						<p>
+							M R T R M
+						</p>
+						<p>
+							T L R M S
+						</p>
+						<p>
+							S L S W T
+						</p>
+						<p>
+							output:
+						</p>
+						<p>
+							S S
+						</p>
+						<p>
+							L L S T T
+						</p>
+						<p>
+							L L S T W
+						</p>
+						<p>
+							L S T T
+						</p>
+						<p>
+							DESTINATION
+						</p>
+						
+					</div>		
+				</div>
+				</div>	
+			
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./TCS_ CodeVita - Sample Questions_files/mod_footer_css.css">
+    <link rel="icon" href="https://www.tcscodevita.com/CodevitaV8/images/favicon.ico" type="image/x-icon">
+    <title>Footer</title>
+
+
+    <footer class="footer">
+        <div class="left_pane">
+            <!-- <a class="link">About CodeVita</a> -->
+            <a href="https://www.tcscodevita.com/CodevitaV8/faqs.jsp" target="_blank" class="link">CodeVita FAQs</a>
+            <a href="https://www.tcscodevita.com/CodevitaV8/codevitablog.jsp" target="_blank" class="link">About CodeVita</a>
+            <a href="https://www.tcscodevita.com/CodevitaV8/privacypolicy.jsp" target="_blank" class="link">Privacy Policy</a>
+            <a href="https://www.tcs.com/" target="_blank" class="link">Careers</a>
+            <span class="copyright">� 2019 Tata Consultancy Services Limited. All Rights Reserved. </span>
+        </div>
+        <div class="right_pane">
+            <div class="connections">
+                <span>CONNECT WITH US</span>
+                <a class="connect_link" href="http://www.facebook.com/TataConsultancyServices" target="_blank"><img src="./TCS_ CodeVita - Sample Questions_files/facebook.png" alt="Facebook"></a>
+                <a class="connect_link" href="http://www.linkedin.com/company/tata-consultancy-services/careers?trk=top_nav_careers" target="_blank"><img src="./TCS_ CodeVita - Sample Questions_files/linkedin.png" alt="Linked In"></a>
+                <a class="connect_link" href="https://www.instagram.com/tcsglobal/?hl=en%E2%80%8B" target="_blank"><img src="./TCS_ CodeVita - Sample Questions_files/instagram.png" alt="Instagram"></a>
+                <a class="connect_link" href="https://twitter.com/TCS_News" target="_blank"><img src="./TCS_ CodeVita - Sample Questions_files/twitter.png" alt="Twitter"></a>
+                <a class="connect_link" href="https://www.youtube.com/channel/UCaHyiyvJp4hhPNhIU7r9uqg" target="_blank"><img src="./TCS_ CodeVita - Sample Questions_files/youtube.png" alt="Youtube"></a>
+                <!-- <a class="connect_link"><img src="./images/footer/googleplus.png" alt="Google +"></a>
+                <a class="connect_link"><img src="./images/footer/email.png" alt="Email"></a> -->
+            </div>
+            <div>
+                <span class="logo"><a href="http://www.tata.com/" target="_blank"></a><img src="./TCS_ CodeVita - Sample Questions_files/tcs_logo.png" style="width: 280px;margin-bottom: 5px"></span>
+                <span class="logo"><img src="./TCS_ CodeVita - Sample Questions_files/cc.png" style="width: 150px"></span>
+            </div>
+        </div>
+        <span class="mob copyright">� 2019 Tata Consultancy Services Limited. All Rights Reserved. </span>
+    </footer>
+
+
+
+</body></html>

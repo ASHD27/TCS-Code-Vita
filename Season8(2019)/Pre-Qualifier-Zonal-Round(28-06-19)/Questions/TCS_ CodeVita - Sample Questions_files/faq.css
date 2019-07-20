@@ -1,0 +1,77 @@
+@import url('../fonts.css');
+
+.container{
+	background: #eee;
+    margin: 20 10px;
+}
+
+.main-container {
+	z-index: 50;
+    background: #fff;
+    margin: 3px;
+    box-shadow: 0px 0 3px 1px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.main-container #the-heading {
+    font-family: 'Roboto-Regular';
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+    margin: -10px -10px -90px;
+    padding: 10px 10px 100px;
+    background: #aabb20;
+}
+
+.main-content {
+	color:#222;
+}
+
+.module {
+	box-shadow: 0px 0 3px 1px rgba(0,0,0,0.5);
+    background: #eee;
+    margin: 5px;
+    padding: 20px;
+    position: relative;
+	font-family: "Roboto-Regular";
+    font-size: 14px;
+}
+
+.faq {
+	background: #fff;
+    margin-bottom: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+	transition: box-shadow .2s;
+	border: 1px solid #eee;
+	cursor: pointer;
+}
+
+.question {
+	font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 24px;
+	position: relative;
+    display: grid;
+	line-height: 1.2;
+	color: #000;
+	text-decoration: none;
+	grid-template-columns: auto min-content;
+}
+
+.question img {
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+.answer {
+	display: none;
+    padding: 0 24px 30px;
+}
+
+.answer p {
+	font-size: .875rem;
+	color: #6c7d8e;
+	line-height: 1.6;
+}
